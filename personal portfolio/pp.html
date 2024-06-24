@@ -3,9 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio - Saisree</title>
+    <style>
+        /* Reset default styles to ensure consistency */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles for the entire page */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0; /* Light gray background */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto; /* Center content horizontally */
+            overflow: hidden; /* Hide overflowing content */
+            padding: 20px 0; /* Padding above and below container */
+        }
+
+        /* Header styles */
+        header {
+            background: #007bff; /* Pastel blue background */
+            color: #fff; /* White text color */
+            text-align: center; /* Center-align text */
+            padding: 20px 0; /* Padding above and below header */
+        }
+
+        header h1 {
+            font-size: 36px; /* Header font size */
+            margin-bottom: 10px; /* Margin below header */
+        }
+
+        header p {
+            font-size: 18px; /* Paragraph font size */
+        }
+
+        /* About section styles */
+        #about {
+            background: #f3e9d2; /* Pastel yellow background */
+            padding: 40px 20px; /* Padding inside about section */
+            margin-bottom: 20px; /* Margin below about section */
+            text-align: center; /* Center-align text */
+            position: relative; /* Relative positioning */
+        }
+
+        .about-content {
+            margin-top: 20px; /* Margin above about content */
+        }
+
+        .about-content img {
+            border-radius: 50%; /* Rounded image */
+            max-width: 200px; /* Limit image width */
+            height: auto; /* Maintain aspect ratio */
+            position: absolute; /* Absolute positioning */
+            top: 50%; /* Align to center vertically */
+            left: 50%; /* Align to center horizontally */
+            transform: translate(-50%, -50%); /* Center image */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+        }
+
+        .about-content p {
+            font-size: 16px; /* Paragraph font size */
+            line-height: 1.8; /* Line height for better readability */
+            margin-top: 260px; /* Margin to create space for image */
+            padding: 0 20px; /* Padding for text */
+        }
+
+        /* Skills section styles */
+        #skills {
+            text-align: center; /* Center-align text */
+            padding: 40px 0; /* Padding above and below skills section */
+        }
+
+        #skills ul {
+            list-style-type: none; /* Remove default list style */
+            padding: 0; /* Remove padding */
+        }
+
+        #skills li {
+            display: inline-block; /* Display skills list items inline */
+            background: #9ca3af; /* Pastel gray background */
+            color: #fff; /* White text color */
+            padding: 8px 20px; /* Padding inside each skill */
+            margin: 5px; /* Margin between skills */
+            border-radius: 20px; /* Rounded corners */
+        }
+
+        /* Projects section styles */
+        #projects {
+            padding: 40px 0; /* Padding above and below projects section */
+        }
+
+        .project {
+            display: flex; /* Use flexbox layout */
+            margin-bottom: 20px; /* Margin below each project */
+        }
+
+        .project img {
+            max-width: 300px; /* Limit project image width */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Margin between image and project info */
+        }
+
+        .project-info {
+            flex: 1; /* Take remaining space */
+        }
+
+        .project-info h3 {
+            font-size: 24px; /* Project title font size */
+            margin-bottom: 10px; /* Margin below project title */
+        }
+
+        .project-info p {
+            font-size: 16px; /* Project description font size */
+            line-height: 1.6; /* Line height for better readability */
+        }
+
+        /* Contact section styles */
+        #contact {
+            text-align: center; /* Center-align text */
+            padding: 40px 0; /* Padding above and below contact section */
+        }
+
+        #contact ul {
+            list-style-type: none; /* Remove default list style */
+            padding: 0; /* Remove padding */
+        }
+
+        #contact li {
+            font-size: 18px; /* List item font size */
+            margin-bottom: 10px; /* Margin below each contact detail */
+        }
+
+        /* Footer styles */
+        footer {
+            background: #9ca3af; /* Pastel gray background */
+            color: #fff; /* White text color */
+            text-align: center; /* Center-align text */
+            padding: 20px 0; /* Padding above and below footer */
+            clear: both; /* Ensure footer clears floats */
+        }
+
+        footer ul {
+            list-style-type: none; /* Remove default list style */
+            padding: 0; /* Remove padding */
+        }
+
+        footer ul li {
+            display: inline; /* Display footer links inline */
+            margin-right: 10px; /* Margin between footer links */
+        }
+
+        footer ul li a {
+            color: #fff; /* White link color */
+            text-decoration: none; /* Remove underline from links */
+        }
+    </style>
 </head>
 <body>
+    <!-- Header Section -->
+    <header id="home">
+        <div class="container">
+            <h1>Saisree</h1>
+            <p>Front-end Developer | UI/UX Designer</p>
+        </div>
+    </header>
     
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <img src="C:\Users\radhu\OneDrive\Pictures\anime codsoft.avif" alt="anime codsoft">
+                <p>Saisree is a passionate front-end developer and UI/UX designer with a strong foundation in web technologies. She specializes in creating responsive and user-friendly interfaces that enhance user experiences. Her journey in web development has equipped her with skills in HTML, CSS, JavaScript, and various frameworks like Bootstrap and React.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>React.js</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Responsive Website Design</h3>
+                    <p>Designed and developed a responsive website using HTML5, CSS3, and Bootstrap framework. Implemented mobile-first approach and optimized UI/UX for various screen sizes.</p>
+                    <p><strong>Technologies:</strong> HTML5, CSS3, Bootstrap</p>
+                    <p><strong>Role:</strong> Sole developer</p>
+                    <p><strong>Challenges:</strong> Ensuring cross-browser compatibility and implementing complex layouts.</p>
+                    <p><strong>Outcome:</strong> Successfully launched a fully responsive website that improved user engagement and accessibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Email: saisree@gamil.com</li>
+                <li>Phone: +1 234 567 890</li>
+            </ul>
+        </div>
+    </section>
+    <!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="about-content">
+            <img src="C:\Users\radhu\OneDrive\Pictures\anime codsoft.avif" alt="anime codsoft">
+            <p>Saisree is a passionate front-end developer and UI/UX designer with a strong foundation in web technologies. She specializes in creating responsive and user-friendly interfaces that enhance user experiences. Her journey in web development has equipped her with skills in HTML, CSS, JavaScript, and various frameworks like Bootstrap and React.</p>
+        </div>
+    </div>
+</section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Saisree. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
